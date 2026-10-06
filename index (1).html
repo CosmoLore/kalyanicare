@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KalyaniCare: AI-Powered Pond Conservation</title>
+<meta name="description" content="KalyaniCare detects, verifies, restores and rewards pond conservation in Anekal Taluk, aligned with SDG 14.">
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<style>
+:root{--bg:#022d2b;--card:#04403a;--line:#0b5a50;--ink:#e6f4f1;--mut:#9cc5bd;--g:#2fc79a;--b:#6daeb2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--g)} :focus-visible{outline:3px solid var(--g);outline-offset:2px}
+.w{max-width:1050px;margin:0 auto;padding:0 20px}
+nav{display:flex;align-items:center;gap:14px;padding:18px 0;flex-wrap:wrap}
+nav img{width:40px;height:40px}nav b{font-size:1.2rem;margin-right:auto}
+nav a{text-decoration:none;color:var(--mut);font-size:.95rem}nav a:hover{color:var(--g)}
+.hero{text-align:center;padding:56px 0 40px}
+.hero img{width:96px;height:96px}
+h1{font-size:clamp(2.4rem,7vw,4rem);margin:12px 0 4px;line-height:1.1;background:linear-gradient(90deg,var(--g),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{font-size:1.2rem;color:var(--mut);margin:0 0 8px}
+.hero p.s{max-width:60ch;margin:0 auto 24px;color:var(--mut)}
+.btn{display:inline-block;padding:12px 22px;border-radius:10px;font-weight:600;text-decoration:none;margin:4px}
+.p{background:var(--g);color:#022d2b}.o{border:1px solid var(--g);color:var(--g)}
+section{padding:36px 0}
+h2{font-size:1.7rem;margin:0 0 6px}.sub{color:var(--mut);margin:0 0 20px;max-width:70ch}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h3{margin:0 0 6px;font-size:1.05rem;color:var(--g)}
+.card p,.card li{color:var(--mut);margin:0;font-size:.95rem}.card ul{margin:0;padding-left:18px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 24px}
+.flow span{padding:8px 16px;border-radius:99px;border:1px solid var(--g);font-weight:600}
+.flow i{color:var(--mut);font-style:normal;align-self:center}
+ol.steps{columns:2 280px;gap:24px;color:var(--mut);padding-left:20px;margin:20px 0 0}
+figure{margin:0}figure img{width:100%;height:auto;border-radius:14px;border:1px solid var(--line);background:#fff}
+figcaption{color:var(--mut);font-size:.9rem;margin-top:8px}
+.tech .card b{display:block;color:var(--ink)}
+footer{border-top:1px solid var(--line);margin-top:30px;padding:28px 0;color:var(--mut);font-size:.9rem;text-align:center}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="w">
+<nav><img src="logo.svg" alt="KalyaniCare logo"><b>KalyaniCare</b><a href="#problem">Problem</a><a href="#how">How it works</a><a href="#stack">Tech</a><a href="#vision">Vision</a><a href="https://github.com/cosmolore/kalyanicare">GitHub</a></nav>
+
+<header class="hero">
+<img src="logo.svg" alt="">
+<h1>KalyaniCare</h1>
+<p class="tag">Protecting Every Pond. Empowering Every Community.</p>
+<p class="s">An AI-powered platform that helps villagers, volunteers, NGOs, municipalities and CSR partners restore the traditional ponds (kalyanis) of Anekal Taluk.</p>
+<a class="btn p" href="https://kcare-lemon.vercel.app" target="_blank" rel="noopener">Open the live app</a>
+<a class="btn o" href="#how">See how it works</a>
+</header>
+
+<section id="problem">
+<h2>The problem</h2>
+<p class="sub">Aligned with SDG 14 (Life Below Water): the ecological death of traditional village ponds.</p>
+<div class="grid">
+<div class="card"><h3>Ponds are choking</h3><p>Kalyanis once supplied drinking and cultural water. Household greywater and sewage overflow now feed toxic weeds and disease-breeding conditions.</p></div>
+<div class="card"><h3>No way to measure progress</h3><p>Local youth groups want to restore ponds but lack a baseline framework to track water quality or coordinate volunteers.</p></div>
+<div class="card"><h3>Funds miss the mark</h3><p>Without continuous tracking, CSR money often goes to short-term cosmetic clean-ups instead of lasting recovery.</p></div>
+<div class="card"><h3>Our answer</h3><p>A transparent, community-led digital registry that tracks each pond's health over time and proves what was restored.</p></div>
+</div>
+</section>
+
+<section id="how">
+<h2>How it works</h2>
+<p class="sub">One connected workflow from the first photo to a verified impact report.</p>
+<div class="flow"><span>Detect</span><i>→</i><span>Verify</span><i>→</i><span>Restore</span><i>→</i><span>Reward</span><i>→</i><span>Sustain</span></div>
+<div class="grid">
+<div class="card"><h3>Villager</h3><ul><li>Upload photo or voice report</li><li>Auto GPS location</li><li>Track my report</li></ul></div>
+<div class="card"><h3>Volunteer</h3><ul><li>View assigned tasks</li><li>Before and after photos</li><li>Mark as complete</li></ul></div>
+<div class="card"><h3>NGO</h3><ul><li>View all reports</li><li>Assign volunteers</li><li>Verify completion</li></ul></div>
+<div class="card"><h3>Municipality</h3><ul><li>View ward reports</li><li>Approve works</li><li>Budget allocation</li></ul></div>
+<div class="card"><h3>Admin</h3><ul><li>Dashboard and analytics</li><li>Users and roles</li><li>CSR management</li></ul></div>
+</div>
+<ol class="steps"><li>Villager uploads an image and report</li><li>Image stored in Firebase Storage</li><li>Report saved in Firestore</li><li>NGO receives the report and assigns a volunteer</li><li>Volunteer uploads BEFORE and AFTER images</li><li>NGO verifies completion</li><li>Municipality approves</li><li>AI generates an impact report and score</li><li>Villager earns Aqua Drops</li><li>CSR company receives an impact certificate</li></ol>
+<br>
+<figure><img src="ecosystem.jpg" alt="KalyaniCare ecosystem diagram showing roles, core engine, workflow and technology stack" loading="lazy"><figcaption>The full KalyaniCare ecosystem: roles, AI core engine, backend workflow and tech stack.</figcaption></figure>
+</section>
+
+<section id="stack" class="tech">
+<h2>Technology</h2>
+<p class="sub">Built with a modern web stack and Google AI.</p>
+<div class="grid">
+<div class="card"><b>Frontend</b><p>React, Vite, TypeScript</p></div>
+<div class="card"><b>Backend</b><p>Firebase: Auth, Firestore, Storage</p></div>
+<div class="card"><b>AI</b><p>Google Gemini for issue detection and impact reports</p></div>
+<div class="card"><b>Maps</b><p>Google Maps API and GPS reporting</p></div>
+<div class="card"><b>Hosting</b><p>Vercel</p></div>
+<div class="card"><b>Version control</b><p>GitHub</p></div>
+</div>
+</section>
+
+<section id="vision">
+<h2>Vision and business model</h2>
+<p class="sub">How KalyaniCare can sustain itself as it grows.</p>
+<div class="grid">
+<div class="card"><h3>CSR pond adoption</h3><p>Companies adopt ponds and receive verified impact reports for ESG compliance.</p></div>
+<div class="card"><h3>IoT sensors</h3><p>Installation and maintenance subscriptions for live water monitoring.</p></div>
+<div class="card"><h3>AI analytics</h3><p>Premium analytics for NGOs, government and municipalities.</p></div>
+<div class="card"><h3>Aqua Drops marketplace</h3><p>Villagers redeem points for sponsored rewards, coupons and eco products.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Presented</h2>
+<figure><img src="presentation.jpg" alt="Group 55 Aqua Re-imagine project display with posters, a KalyaniCare QR code and the CSR portal on a laptop" loading="lazy"><figcaption>Group 55 (AR), Aqua Re-imagine: Beyond Conservation, Towards Transformation.</figcaption></figure>
+</section>
+
+<footer>KalyaniCare: Technology + Community + Government + CSR = Sustainable Ponds and a Better Tomorrow.<br><a href="https://kcare-lemon.vercel.app">Live app</a> · <a href="https://github.com/cosmolore/kalyanicare">GitHub</a></footer>
+</div>
+</body>
+</html>
