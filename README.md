@@ -5,8 +5,8 @@
 **Live app:** https://kcare-lemon.vercel.app
 **Project page:** https://cosmolore.github.io/kalyanicare/
 
-![KalyaniCare ecosystem](ecosystem.jpg) (<img width="1400" height="787" alt="presentation" src="https://github.com/user-attachments/assets/ba60fceb-e913-4e03-872f-dfb2d8e16ee2" />
-)
+![KalyaniCare ecosystem](ecosystem.jpg) <img width="1400" height="787" alt="presentation" src="https://github.com/user-attachments/assets/ba60fceb-e913-4e03-872f-dfb2d8e16ee2" />
+
 
 ## The problem
 Traditional village ponds (kalyanis) in Anekal Taluk are choking on toxic weeds and household greywater, with no organised way to track their health. Local youth groups want to restore them but lack a measurement framework, and CSR funds often go to short-term cosmetic clean-ups. Aligned with **SDG 14 (Life Below Water)**.
